@@ -1,0 +1,182 @@
+/***BASE STYLES***/
+body {
+    background-color: #f3f4f8;
+    font-family: 'Raleway', sans-serif;
+}
+#about, #skills, #work, #contact {
+    height: 500px;
+}
+h1 {
+    color: #64984a;
+    font-size: 110px;
+}
+h2 {
+    color: #2a3137;
+    font-size: 40px;
+}
+h3, h4 {
+    color: #2a3137;
+    font-family: "Dancing Script";
+}
+h3 {
+    font-size: 75px;
+}
+h4 {
+    font-size: 60px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    text-transform: lowercase;
+}
+h5 {
+    color: #2a3137;
+    font-size: 36px;
+    text-decoration: none;
+}
+p {
+    color: #2a3137;
+    font-size: 25px;
+    margin: 60px;
+    text-align: center;
+}
+section {
+    border-top: 5px solid #2a3137;
+}
+
+/***GRID***/
+
+.full-width {
+    margin: 0 auto;
+    width: 1200px;
+}
+.half-width {
+    float: left;
+    width: 600px;
+}
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+/***HEADER***/
+
+header {
+    background: url("../img/hero-image.png");
+    background-size: cover;
+    height: 900px;
+}
+header h1 {
+    font-size: 36px;
+    margin: 0 auto;
+    padding: 645px 0 0 486px;
+}
+header h3 { 
+    clear: both;
+    margin: 0 auto;
+    padding: 25px 0 0 396px;
+}
+h3 span {
+    color: #f78926;
+}
+nav {
+    float: right;
+    padding: 60px 0 0 40px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    color: #2a3137;
+    font-size: 30px;
+    list-style: none;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+/***ABOUT ME***/
+
+#about .full-width {
+    padding: 10px;
+}
+#about p span {
+    color: #f78926;
+}
+
+/***SKILLS***/
+
+#skills {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#skills .full-width {
+    padding: 10px 0 50px 0;
+}
+
+#skills img {
+    display: inline;
+    margin: 20px;
+    max-width: 67px;
+    max-height: 67px;
+    padding-bottom: 0px;
+    padding-top: 55px;
+}
+#skills p {
+    font-size: 20px;
+}
+
+/***WORK***/
+
+#work {
+    text-align: center;
+}
+#work .full-width {
+    padding: 10px;
+}
+#work img {
+    display: inline-block;
+    max-width: 270px;
+    max-height: 270px;
+    padding-top: 55px;
+}
+/**#work p {
+    line-height: 80px;
+}**/
+
+/***CONTACT***/
+
+#contact {
+    background-color: #64984a;
+    padding-bottom: 50px;
+    text-align: center;
+}
+#contact .full-width {
+    padding: 10px;
+}
+#contact img {
+    padding-top: 40px;
+}
+#contact h5 a {
+    font-size: 20px;
+}
+#contact a {
+    color: #2a3137;
+    text-decoration: none;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+    display: inline-block;
+    font-size: 17px;
+    margin-top: 60px;
+    padding: 20px 10px 0 0;
+}
+#contact ul li img {
+    max-height: 30px;
+    max-width: 30px;
+}
+#contact h2 {
+    line-height: 80px;
+}
